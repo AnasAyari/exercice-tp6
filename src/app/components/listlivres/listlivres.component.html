@@ -1,0 +1,13 @@
+<h1>Liste des livres</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Titre</th>
+        <th>Infos</th>
+    </tr>
+    <tr *ngFor="let l of leslivres">
+        <td>{{l.id}} </td>
+        <td>{{l.title}} </td>
+        <td><button>infos </button></td>
+    </tr>
+</table>
